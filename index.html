@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Final Project</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Final_Project</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14579,7 +14579,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h5 id="Manga-are-comics-or-graphic-novels-originating-from-Japan.-Mangas-are-typically-printed-in-black-and-white(for-time-constraints,-artistic-reasons,-and-keeping-printing-costs-low),-but-some-colored-manga-do-exist.-In-2020-Japan's-manga-market-value-hit-a-new-record-of-%C2%A5612.6-billion-due-to-the-fast-growth-of-digital-manga-sales-as-well-as-increase-of-print-sales.-Beginning-with-the-late-2010s--manga-started-massively-outselling-American-comics.-In-2020-the-North-American-manga-market-was-valued-at-almost-$250-million.-Similarly,-manhuas-are-graphic-novels-or-comics-originating-from-China,-and-manhwa/webtoons-are-those-originating-from-Korea.-I-like-to-read-manhua-and-manhwa.-Given-the-rising-popularity-of-manga-in-recent-decades,-I-thought-it-would-be-useful-to-build-a-recommendation-system-that-can-help-anyone-explore-manga.-For-this-tutorial,-I-will-refer-to-all-data-entries-as-manga,-for-simplicity.">Manga are comics or graphic novels originating from Japan. Mangas are typically printed in black and white(for time constraints, artistic reasons, and keeping printing costs low), but some colored manga do exist. In 2020 Japan's manga market value hit a new record of &#165;612.6 billion due to the fast growth of digital manga sales as well as increase of print sales. Beginning with the <a href="https://www.animenewsnetwork.com/news/2021-02-26/manga-market-in-japan-hits-record-612.6-billion-yen-in-2020/.169987">late 2010s </a> manga started massively outselling American comics. In 2020 the North American manga market was valued at almost <a href="https://icv2.com/articles/markets/view/48728/manga-sales-north-america-hit-all-time-high-2020">$250 million.</a> Similarly, manhuas are graphic novels or comics originating from China, and manhwa/webtoons are those originating from Korea. I like to read manhua and manhwa. Given the rising popularity of manga in recent decades, I thought it would be useful to build a recommendation system that can help anyone explore manga. For this tutorial, I will refer to all data entries as manga, for simplicity.<a class="anchor-link" href="#Manga-are-comics-or-graphic-novels-originating-from-Japan.-Mangas-are-typically-printed-in-black-and-white(for-time-constraints,-artistic-reasons,-and-keeping-printing-costs-low),-but-some-colored-manga-do-exist.-In-2020-Japan's-manga-market-value-hit-a-new-record-of-%C2%A5612.6-billion-due-to-the-fast-growth-of-digital-manga-sales-as-well-as-increase-of-print-sales.-Beginning-with-the-late-2010s--manga-started-massively-outselling-American-comics.-In-2020-the-North-American-manga-market-was-valued-at-almost-$250-million.-Similarly,-manhuas-are-graphic-novels-or-comics-originating-from-China,-and-manhwa/webtoons-are-those-originating-from-Korea.-I-like-to-read-manhua-and-manhwa.-Given-the-rising-popularity-of-manga-in-recent-decades,-I-thought-it-would-be-useful-to-build-a-recommendation-system-that-can-help-anyone-explore-manga.-For-this-tutorial,-I-will-refer-to-all-data-entries-as-manga,-for-simplicity.">&#182;</a></h5><h5 id="In-this-tutorial,-my-goal-is-to-clean-the-AnimePlanet-data-given-(if-necessary)-and-use-that-data-to-perform-some-exploratory-data-analysis,-such-as-what-manga-genres-are-the-most-popular,-etc-and-then-build-a-manga-recommendation-system-that-ultimately-takes-in-the-manga-title-and-a-similarity-function-as-input-and-outputs-the-top-mangas-similar-to-it.-For-current-manga-enjoyers,-I-hope-this-analysis-will-provide-a-useful-resource-to-explore-new-titles-that-they-haven't-tried-(but-should-enjoy,-according-to-the-engine).-For-non-manga-readers,-I-hope-this-analysis-will-interest-them-into-trying-out-some-titles-and-provide-some-useful-insights-on-genres.">In this tutorial, my goal is to clean the AnimePlanet data given (if necessary) and use that data to perform some exploratory data analysis, such as what manga genres are the most popular, etc and then build a manga recommendation system that ultimately takes in the manga title and a similarity function as input and outputs the top mangas similar to it. For current manga enjoyers, I hope this analysis will provide a useful resource to explore new titles that they haven't tried (but should enjoy, according to the engine). For non-manga readers, I hope this analysis will interest them into trying out some titles and provide some useful insights on genres.<a class="anchor-link" href="#In-this-tutorial,-my-goal-is-to-clean-the-AnimePlanet-data-given-(if-necessary)-and-use-that-data-to-perform-some-exploratory-data-analysis,-such-as-what-manga-genres-are-the-most-popular,-etc-and-then-build-a-manga-recommendation-system-that-ultimately-takes-in-the-manga-title-and-a-similarity-function-as-input-and-outputs-the-top-mangas-similar-to-it.-For-current-manga-enjoyers,-I-hope-this-analysis-will-provide-a-useful-resource-to-explore-new-titles-that-they-haven't-tried-(but-should-enjoy,-according-to-the-engine).-For-non-manga-readers,-I-hope-this-analysis-will-interest-them-into-trying-out-some-titles-and-provide-some-useful-insights-on-genres.">&#182;</a></h5>
+<p>Manga are comics or graphic novels originating from Japan. Mangas are typically printed in black and white(for time constraints, artistic reasons, and keeping printing costs low), but some colored manga do exist. In 2020 Japan's manga market value hit a new record of ¥612.6 billion due to the fast growth of digital manga sales as well as increase of print sales. Beginning with the <a href="https://www.animenewsnetwork.com/news/2021-02-26/manga-market-in-japan-hits-record-612.6-billion-yen-in-2020/.169987">late 2010s </a> manga started massively outselling American comics. In 2020 the North American manga market was valued at almost <a href="https://icv2.com/articles/markets/view/48728/manga-sales-north-america-hit-all-time-high-2020">$250 million.</a> Similarly, manhuas are graphic novels or comics originating from China, and manhwa/webtoons are those originating from Korea. I like to read manhua and manhwa. Given the rising popularity of manga in recent decades, I thought it would be useful to build a recommendation system that can help anyone explore manga. For this tutorial, I will refer to all data entries as manga, for simplicity.</p>
+<p>In this tutorial, my goal is to clean the AnimePlanet data given (if necessary) and use that data to perform some exploratory data analysis, such as what manga genres are the most popular, etc and then build a manga recommendation system that ultimately takes in the manga title and a similarity function as input and outputs the top mangas similar to it. For current manga enjoyers, I hope this analysis will provide a useful resource to explore new titles that they haven't tried (but should enjoy, according to the engine). For non-manga readers, I hope this analysis will interest them into trying out some titles and provide some useful insights on genres.</p>
+
 </div>
 </div>
 </div>
@@ -14920,7 +14922,7 @@ memory usage: 2.7+ MB
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>/tmp/ipykernel_649/2675233037.py:7: SettingWithCopyWarning: 
+<pre>/tmp/ipykernel_133/2675233037.py:7: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame.
 Try using .loc[row_indexer,col_indexer] = value instead
 
@@ -15632,7 +15634,8 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h5 id="The-results-are-interesting-because-I-only-recognize-3-titles-in-the-top-20-highest-rated-manga.-Although,-I-don't-read-manga-much--I-mainly-read-manhua-and-manhwa,-but-one-of-the-titles-I-do-recognize-is-Roxana.-I-was-suprised-it-made-it-into-the-list-because-it's-a-relatively-new-manhwa,-and-definitely-not-as-popular-as-the-popular-manhwas(such-as-Who-Made-Me-a-Princess).-So,-I-think-some-publications-with-high-ratings-simply-have-high-ratings-because-they're-not-as-popular-so-less-users-are-rating-them,-and-as-a-result-the-rating-is-an-average-rating-of-users-that-like-the-manga,-and-not-necessarily-indicative-of-the-manga's-quality.-Roxana,-in-my-opinion,-does-not-deserve-a-4.7.-So-a-reccomender-system-that-just-spits-out-the-highest-rated-entries-would-not-be-very-useful,-because-of-the-factors-that-affect-a-publication's-rating-is-not-necessarily-due-to-the-quality-of-the-actual-publication.-I-think,-to-make-the-ratings-more-accurate,-I-would-need-access-to-how-many-users-submitted-a-rating-to-achieve-that-rating-for-a-publication.">The results are interesting because I only recognize 3 titles in the top 20 highest rated manga. Although, I don't read manga much--I mainly read manhua and manhwa, but one of the titles I do recognize is Roxana. I was suprised it made it into the list because it's a relatively new manhwa, and definitely not as popular as the popular manhwas(such as Who Made Me a Princess). So, I think some publications with high ratings simply have high ratings because they're not as popular so less users are rating them, and as a result the rating is an average rating of users that like the manga, and not necessarily indicative of the manga's quality. Roxana, in my opinion, does not deserve a 4.7. So a reccomender system that just spits out the highest rated entries would not be very useful, because of the factors that affect a publication's rating is not necessarily due to the quality of the actual publication. I think, to make the ratings more accurate, I would need access to how many users submitted a rating to achieve that rating for a publication.<a class="anchor-link" href="#The-results-are-interesting-because-I-only-recognize-3-titles-in-the-top-20-highest-rated-manga.-Although,-I-don't-read-manga-much--I-mainly-read-manhua-and-manhwa,-but-one-of-the-titles-I-do-recognize-is-Roxana.-I-was-suprised-it-made-it-into-the-list-because-it's-a-relatively-new-manhwa,-and-definitely-not-as-popular-as-the-popular-manhwas(such-as-Who-Made-Me-a-Princess).-So,-I-think-some-publications-with-high-ratings-simply-have-high-ratings-because-they're-not-as-popular-so-less-users-are-rating-them,-and-as-a-result-the-rating-is-an-average-rating-of-users-that-like-the-manga,-and-not-necessarily-indicative-of-the-manga's-quality.-Roxana,-in-my-opinion,-does-not-deserve-a-4.7.-So-a-reccomender-system-that-just-spits-out-the-highest-rated-entries-would-not-be-very-useful,-because-of-the-factors-that-affect-a-publication's-rating-is-not-necessarily-due-to-the-quality-of-the-actual-publication.-I-think,-to-make-the-ratings-more-accurate,-I-would-need-access-to-how-many-users-submitted-a-rating-to-achieve-that-rating-for-a-publication.">&#182;</a></h5>
+<p>The results are interesting because I only recognize 3 titles in the top 20 highest rated manga. Although, I don't read manga much--I mainly read manhua and manhwa, but one of the titles I do recognize is Roxana. I was suprised it made it into the list because it's a relatively new manhwa, and definitely not as popular as the popular manhwas(such as Who Made Me a Princess). So, I think some publications with high ratings simply have high ratings because they're not as popular so less users are rating them, and as a result the rating is an average rating of users that like the manga, and not necessarily indicative of the manga's quality. Roxana, in my opinion, does not deserve a 4.7. So a reccomender system that just spits out the highest rated entries would not be very useful, because of the factors that affect a publication's rating is not necessarily due to the quality of the actual publication. I think, to make the ratings more accurate, I would need access to how many users submitted a rating to achieve that rating for a publication.</p>
+
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15913,12 +15916,10 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <span class="c1"># The ast.literal_eval method can safely evaluate strings containing Python values from unknown sources without us having to parse the values. </span>
 <span class="k">for</span> <span class="n">feature</span> <span class="ow">in</span> <span class="n">features</span><span class="p">:</span>
     <span class="n">mangas_df</span><span class="p">[</span><span class="n">feature</span><span class="p">]</span> <span class="o">=</span> <span class="n">mangas_df</span><span class="p">[</span><span class="n">feature</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">literal_eval</span><span class="p">)</span>
-  
     
 <span class="c1"># create a soup containing the metadata extracted from the input to be put into the vectorizer</span>
 <span class="k">def</span> <span class="nf">create_soup</span><span class="p">(</span><span class="n">features</span><span class="p">):</span>
     <span class="k">return</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">features</span><span class="p">[</span><span class="s1">&#39;tags&#39;</span><span class="p">])</span>
-
 
 <span class="n">mangas_df</span><span class="p">[</span><span class="s2">&quot;soup&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">mangas_df</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">create_soup</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 
@@ -15966,7 +15967,7 @@ Name: soup, dtype: object
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Our manga recommendation engine works by suggesting mangs to the user based on the metadata information. </span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Our manga recommendation engine works by suggesting mangas to the user based on the metadata information. </span>
 <span class="c1"># The similarity between the mangas  is calculated and then used to make recommendations.</span>
 
 <span class="c1"># CountVectorizer counts the frequency of each word and outputs a 2D vector containing frequencies.</span>
@@ -16072,8 +16073,8 @@ Length: 5000, dtype: int64</pre>
     <span class="n">mangas</span> <span class="o">=</span> <span class="n">mangas_df</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">mangas_indices</span><span class="p">]</span>
     <span class="k">return</span> <span class="n">mangas</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Recommendations for Who Made Me a Princess&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">get_recommendations</span><span class="p">(</span><span class="s2">&quot;Who Made Me a Princess&quot;</span><span class="p">,</span> <span class="n">cosine_sim2</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Roxana&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">get_recommendations</span><span class="p">(</span><span class="s2">&quot;Roxana&quot;</span><span class="p">,</span> <span class="n">cosine_sim2</span><span class="p">))</span>
 </pre></div>
 
      </div>
@@ -16095,17 +16096,17 @@ Length: 5000, dtype: int64</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Recommendations for Who Made Me a Princess
-1940    They Say I Was Born a King&#39;s Daughter - Part 3
-2217    They Say I Was Born a King&#39;s Daughter - Part 2
-552                    Flirting with The Villain&#39;s Dad
-2100                           Daughter of the Emperor
-2441                        The Golden-Haired Summoner
-1081                             Caught by the Villain
-1478               Empress of Another World - Specials
-988                 Empress Cesia Wears Knickerbockers
-1708     The Max Level Princess is Bored Today as Well
-1075                       A Transmigrator&#39;s Privilege
+<pre>Roxana
+1302                    Becoming the Dark Hero&#39;s Daughter
+3481                    The Little Lady Behind the Scenes
+4463                              Happily Ever Afterwards
+1195                                     Marry My Husband
+643                         I Married the Male Lead&#39;s Dad
+4439                          Villain Duke&#39;s Precious One
+4762    A Tender Heart: The Story of How I Became a Du...
+4780                                The Viridescent Tiara
+24                   The Male Lead&#39;s Little Lion Daughter
+607     Please Don’t Come To The Villainess’ Stationer...
 Name: title, dtype: object
 </pre>
 </div>
@@ -16119,7 +16120,22 @@ Name: title, dtype: object
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Part-5:-Communication-of-insights-attained">Part 5: Communication of insights attained<a class="anchor-link" href="#Part-5:-Communication-of-insights-attained">&#182;</a></h3>
+<h5 id="The-recommender-appears-to-be-working-as-expected.-Roxana-is-a-manhwa-in-the-villainess-genre,-and-although-I-don't-recognize-any-titles-that-were-recommended,-just-looking-at-the-titles-of-the-mangas,-they-appear-to-be-similar-to-Roxana.">The recommender appears to be working as expected. Roxana is a manhwa in the villainess genre, and although I don't recognize any titles that were recommended, just looking at the titles of the mangas, they appear to be similar to Roxana.<a class="anchor-link" href="#The-recommender-appears-to-be-working-as-expected.-Roxana-is-a-manhwa-in-the-villainess-genre,-and-although-I-don't-recognize-any-titles-that-were-recommended,-just-looking-at-the-titles-of-the-mangas,-they-appear-to-be-similar-to-Roxana.">&#182;</a></h5>
+</div>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Part-5:-Conclusions-and-Further-Exploration">Part 5: Conclusions and Further Exploration<a class="anchor-link" href="#Part-5:-Conclusions-and-Further-Exploration">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>In this tutorial, we explored the Anime-Planet dataset on mangas using using the data science pipeline and generated a recommender system using this dataset. As a result of my analysis, I found some suprising results, such as what the most common genre/tags of mangas are, what years were the most mangas published, and what genre/tags are associated with the highest rated titles. On the other hand, while doing my analysis, I also noticed the limitations of this dataset--because high ratings does not necessarily indicate popularity or quality of the manga. A dataset that includes the number of views for a particular publication would be a better indicator of popularity/quality than ratings, because as I mentioned before, some publications may just have high ratings because not many users have rated it. Consequently, that's a factor we need to keep in mind when interpreting the results of this dataset. So further exploration would include finding a dataset that also include views for mangas and merging it with this dataframe. As for the recommender system, I thought the best type of recommender system for this dataset would be a content based one, because it just intuively makes sense, a reader would be inclined to like mangas that are similar to each other. If we could find user data and use that in tandem with our current dataset, we could possibly build a system that is generated by analyzing the user's behavior and the demographics of users similar to each other. Lastly, for my recommender system, I only used the tags to generate the words to feed into the CountVectorizers, but to make the recommender more tailored, we could possibly also include the title and description of the manga as well. Although that may lead to overfitting, but we'll have to see.</p>
+
 </div>
 </div>
 </div>
